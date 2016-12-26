@@ -1,6 +1,10 @@
 # Environment Variables
 .env
 
+# Templates Store
+templatesObj.js
+templates/*
+
 # Logs
 logs
 *.log

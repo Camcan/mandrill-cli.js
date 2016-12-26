@@ -4,7 +4,7 @@
   "description": "Command Line interface for interactions with Mandrill email templates",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/*"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Camcan/mandrill-cli.js#readme",
   "dependencies": {
-    "dotenv": "^2.0.0"
+    "dotenv": "^2.0.0",
+    "mandrill-api": "^1.0.45",
+    "tape": "^4.6.3"
   }
 }
