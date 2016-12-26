@@ -45,7 +45,7 @@ if (command[0] == "list-local") {
 			    		m.replaceSegment(t.code, command[2], command[3], function(output){
 			    			t.code = output
 				    		if (command[4] == "save") {
-				    			m.updateTemplateLocal(t, clone)
+				    			m.updateTemplate(t, clone)
 				    		}
 			    		})  		
 		    		}
